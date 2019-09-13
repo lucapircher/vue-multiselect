@@ -701,11 +701,11 @@ fieldset[disabled] .multiselect {
   color: white;
 }
 
-.multiselect__option--highlight:after {
+/* .multiselect__option--highlight:after {
   content: attr(data-select);
   background: #41b883;
   color: white;
-}
+} */
 
 .multiselect__option--selected {
   background: #f3f3f3;
@@ -713,21 +713,21 @@ fieldset[disabled] .multiselect {
   font-weight: bold;
 }
 
-.multiselect__option--selected:after {
+/* .multiselect__option--selected:after {
   content: attr(data-selected);
   color: silver;
-}
+} */
 
 .multiselect__option--selected.multiselect__option--highlight {
   background: #ff6a6a;
   color: #fff;
 }
 
-.multiselect__option--selected.multiselect__option--highlight:after {
+/* .multiselect__option--selected.multiselect__option--highlight:after {
   background: #ff6a6a;
   content: attr(data-deselect);
   color: #fff;
-}
+} */
 
 .multiselect--disabled .multiselect__current,
 .multiselect--disabled .multiselect__select {
